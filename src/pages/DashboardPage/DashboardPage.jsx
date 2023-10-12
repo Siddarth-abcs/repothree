@@ -48,7 +48,7 @@ import FolderComponent from '../../components/DashboardComponent/FolderComponent
         )}
         <Navbar/>
         <SubBar 
-        setIsCreateFolderModalOpen={setIsCreateFolderModalOpen}/>
+        setIsCreateFolderModelOpen={setIsCreateFolderModalOpen}/>
         <Routes>
           <Route path="" element={<HomeComponent/>}/> 
           <Route path='folder/:folderId' element={<FolderComponent/>}/>
